@@ -25,6 +25,8 @@ Criar uma SPA usando ClojureScript e re-frame contendo 3 componentes: 1 contador
       + `views.cljs`: componentes Reagent
       + `core.cljs`: ponto de entrada
 
+3. **Criar Estado Inicial** (`db.cljs`)
+
 ## Fase 2
 Backend 3 endpoints, get Counter (0), inc(), reset()
 
