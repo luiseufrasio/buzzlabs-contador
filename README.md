@@ -12,6 +12,10 @@ Criar uma SPA usando ClojureScript e re-frame contendo 3 componentes: 1 contador
                     [binaryage/devtools "1.0.7"]
                     [day8.re-frame/re-frame-10x "1.10.0"]]]
      ```
+   - Instalando as dependências necessárias:
+     ```bash
+     npm install react react-dom
+     ```
    - Iniciando o server:  
      ```bash
      npx shadow-cljs watch app
