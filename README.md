@@ -31,7 +31,9 @@ Criar uma SPA usando ClojureScript e re-frame contendo 3 componentes: 1 contador
 
 5. **Criar Arquivo de Assinaturas** (`subs.cljs`)
 
-6. **Arquivo View** (`views.cljs`)
+6. **Criar Arquivo View** (`views.cljs`)
+
+7. **Criar Arquivo Principal** (`core.cljs`)
 
 ## Fase 2
 Backend 3 endpoints, get Counter (0), inc(), reset()
