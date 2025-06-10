@@ -17,8 +17,14 @@ Criar uma SPA usando ClojureScript e re-frame contendo 3 componentes: 1 contador
      npx shadow-cljs watch app
      ```
 
-2. **[Título do próximo passo]**  
-   - [Descrição ou comandos]
+2. **Estruturando código re-frame**
+   - Criar os arquivos em `src/main/buzzlabs_contador` separando cada parte do Circuito:
+      + `db.cljs`: define o estado inicial
+      + `events.cljs`: contém manipuladores de eventos
+      + `subs.cljs`: assinaturas
+      + `views.cljs`: componentes Reagent
+      + `core.cljs`: ponto de entrada
+
 ## Fase 2
 Backend 3 endpoints, get Counter (0), inc(), reset()
 
