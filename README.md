@@ -7,9 +7,10 @@ Criar uma SPA usando ClojureScript e re-frame contendo 3 componentes: 1 contador
      ```
    - Adicionando as dependências em `shadow-cljs.edn`:  
      ```clojure
-     :dependencies [[reagent "1.2.0"]
-                    [re-frame "1.4.1"]
-                    [binaryage/devtools "1.0.7"]]
+     :dependencies [[reagent "1.3.0"]
+                    [re-frame "1.4.3"]
+                    [binaryage/devtools "1.0.7"]
+                    [day8.re-frame/re-frame-10x "1.10.0"]]]
      ```
    - Iniciando o server:  
      ```bash
